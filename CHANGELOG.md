@@ -1,5 +1,21 @@
 ### CHANGELOG
 
+## Version: 2.10
+Date: 11/12/2017
+    
+Modified:
+- public/assets/css
+    * style.css
+- views
+    * flights_page.php
+    * fleet.php
+    * template.php
+- controllers
+    * FlightBookings.php
+- config
+    config.php
+    
+
 ## Version: 2.9
 Date: 11/12/2017
 
