@@ -1,7 +1,7 @@
 <!-- Adding new view outline-->
 <div id="body">
     <table class="container">
-        <tr>
+        <tr class="table-row-header">
             <td>Flight ID</td>
             <td>Model</td>
             <td>Departure</td>

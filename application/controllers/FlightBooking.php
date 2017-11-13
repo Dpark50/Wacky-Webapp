@@ -26,10 +26,8 @@ class FlightBooking extends Application {
 
         //set up form fields
         $fields = array(
-            'fdeparture' => form_label('From') . form_dropdown('departure', $this->app->departure(),
-                    $flights->departure),
-            'fdestination' => form_label('To') . form_dropdown('destination', $this->app->destination(),
-                    $flights->destination),
+            'fdeparture' => form_label('From') . form_dropdown('departure', $this->app->departure()),
+            'fdestination' => form_label('To') . form_dropdown('destination', $this->app->destination()),
             'zsubmit' => form_submit('submit', 'Check Availability'),
         );
 

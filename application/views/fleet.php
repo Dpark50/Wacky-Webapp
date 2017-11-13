@@ -2,7 +2,7 @@
 <div id="body">
     
     <table class="container">
-        <tr>
+        <tr class="table-row-header">
             <td>Fleet ID</td>
             <td>Manufacturer</td>
             <td>Model</td>
