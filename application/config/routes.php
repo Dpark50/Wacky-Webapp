@@ -1,3 +1,4 @@
+
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -54,4 +55,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['flights'] = 'info/flights';
 $route['fleet'] = 'info/fleet';
-$route['info'] = 'info/info';
+$route['info'] = 'info';
+$route['info/flights'] = 'info/info/flights';
+$route['info/fleet'] = 'info/info/fleet';
