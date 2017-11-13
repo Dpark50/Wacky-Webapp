@@ -8,7 +8,6 @@
     {freach}
     {fcruise}
     {ftakeoff}
-    {fseats}
     {zsubmit}
 </form>
 <a href="/info/fleet/edit"><input type="button" value="Cancel the current edit"/></a>

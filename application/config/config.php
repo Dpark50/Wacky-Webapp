@@ -8,10 +8,10 @@ $config['menu_choices'] = array(
         //'name' => 'Homepage' Note: 'Homepage' will display in navbar
         //'link' => '/homepage' Note: '/homepage' is the controller
         array('name' => 'Homepage', 'link' => '/homepage'),
-        array('name' => 'Fleets', 'link' => 'fleet'),
-        array('name' => 'Flights', 'link' => 'flights'),
-        array('name' => 'Flight Booking', 'link' => 'flightbooking'),
-        array('name' => 'Info', 'link' => 'info/info')
+        array('name' => 'Fleets', 'link' => '/fleet'),
+        array('name' => 'Flights', 'link' => '/flights'),
+        array('name' => 'Flight Booking', 'link' => '/flightbooking'),
+        array('name' => 'Info', 'link' => '/info/info')
     )
 );
 
