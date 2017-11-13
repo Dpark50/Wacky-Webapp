@@ -1,5 +1,80 @@
 /* CSS definition file containing site stylesheet */
-body {}
-#content {width:100%; margin-left:5% auto;margin-right:5% auto;}
-#footer {font-size: small; font-style:italic;text-align:center;}
+body {
+    
+    background-image: url('../image/background.jpg');
+}
+table.container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 900px;
+}
+form {
+    margin-left: 30px;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+p {
+    padding-left: 30px;
+    
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.nav li {
+    padding: 5px 15px 5px 15px;
+}
+
+#content {
+    width:100%; 
+    margin-left:5% auto;
+    margin-right:5% auto;
+    background-color: #fff;
+    min-height: 600px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+table {
+    
+}
+.footer {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-size: small; 
+    font-style:italic;
+    text-align:center;
+    color: white;
+    bottom: 0;
+    margin-left:5% auto;
+    margin-right:5% auto;
+    width: 100%;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .row>div {margin-bottom:10px;}
+
+td {
+    padding: 5px 0 5px 0;
+}
+
+tr:nth-last-child(odd) {
+    background-color: #e9e9e9;
+}
+
+td:first-child {
+    padding-left: 10px;
+}
+
+.table-row-header {
+    font-size: 15px;
+    background-color: #2980b9 !important;
+    color: white;
+    font-weight: 800;
+    margin: 0 5px 0 5px;
+}

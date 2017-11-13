@@ -13,22 +13,25 @@ if (!defined('APPPATH'))
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
     </head>
     <body>
-        <<div class="container">
-            <div class="navbar">
-                <div class="navbar-inner">
-                    {menubar} 
-                </div>
-            </div>           
+        <div class="navbar">
+            <div class="navbar-inner">
+                {menubar}
+            </div>
+        </div>
+        <div class="container">
+            <br>
             <div id="content">
                 <h1>{pagetitle}</h1>
                 {content}
             </div>
-            <div>
-                <p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. 
-                {ci_version}</p>
-            </div>     
         </div>
         <script src="/assets/js/jquery-1.11.1.min.js"></script>
         <script src="/assets/js/bootstrap.min.js"></script>
     </body>
+    <footer>
+        <div class="footer">
+            <p>© 2017 ANewFuego, Inc</p>
+        </div>
+    </footer>
+
 </html>
